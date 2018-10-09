@@ -9,8 +9,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
-import com.bumptech.glide.Glide;
-
 public class GradientArtistBasic extends RelativeLayout {
 
     /** Core Items*/
@@ -90,7 +88,7 @@ public class GradientArtistBasic extends RelativeLayout {
         image.setImageDrawable(imageFile);
     }
 
-    public void setDrawableImage(int imageFile, int imageError, int imagePlaceHolder,
+   /* public void setDrawableImage(int imageFile, int imageError, int imagePlaceHolder,
                                  ImageView.ScaleType scaleType) {
 
         image.setScaleType(scaleType);
@@ -117,7 +115,7 @@ public class GradientArtistBasic extends RelativeLayout {
                 .error(imageError)
                 .into(image);
 
-    }
+    }*/
 
     public void setResImage(int resID,ImageView.ScaleType scaleType) {
         image.setScaleType(scaleType);
