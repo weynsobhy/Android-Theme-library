@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fitsSystemWindows="true"
+tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Button
+        android:id="@+id/dangdut"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Dangdut Theme"/>
+
+    <Button
+        android:id="@+id/pop"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Pop Theme"/>
+
+    <Button
+        android:id="@+id/reggae"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Reggae Theme"/>
+</LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

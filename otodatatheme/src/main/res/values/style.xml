@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ReggaeTheme" parent="AppTheme.NoActionBar">
+        <item name="android:paddingTop">@dimen/oto_dimen_cust_big</item>
+        <item name="colorPrimary">@color/colorRed</item>
+        <item name="colorPrimaryDark">@color/colorYellow</item>
+        <item name="colorAccent">@color/colorGreen</item>
+        <item name="android:background">@drawable/bg_orange</item>
+        <item name="android:fontFamily">@font/segoe_ui</item>
+        <item name="android:textSize">@dimen/oto_dimen_cust_big</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="JazzTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="RockTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="PopTheme" parent="AppTheme.NoActionBar">
+        <item name="android:paddingTop">@dimen/oto_dimen_cust_medium</item>
+        <item name="android:background">@drawable/bg_candy</item>
+        <item name="android:fontFamily">@font/segoe_ui</item>
+        <item name="android:textSize">@dimen/oto_dimen_cust_big</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DangdutTheme" parent="AppTheme.NoActionBar">
+        <item name="android:background">@drawable/bg_vector</item>
+        <item name="android:fontFamily">@font/lobster</item>
+        <item name="android:textSize">@dimen/oto_dimen_cust_big</item>
+        <item name="android:textColor">@color/colorRed</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>
